@@ -1,1 +1,1 @@
-# Portfolio-artiste-Emy-Croteau-
+Le projet a été créé en 2021 comme premier projet libre après avoir appris les bases d'html, css et javascript. Le but était de céer une page web pour permettre à mon amie de présenter ses oeuvres.
