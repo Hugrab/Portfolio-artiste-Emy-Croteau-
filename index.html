@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emy Croteau - Art</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Mukta:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body onload=Init()>
+
+<!-- ================================================
+Header
+================================================= -->
+
+<header id="accueil">
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#accueil">ACCUEIL</a></li>
+                <li><a href="#a-propos">À PROPOS</a></li>
+                <li><a href="#contact">COMMANDE</a></li>
+                <li><a href="#port">PORTFOLIO</a></li>
+            </ul>
+            <a href="#contact" class="contact">Me contacter</a>
+        </nav>
+    </div>
+
+<!-- ================================================
+Hero
+================================================= -->
+
+    <div class="hero">
+        <div class="wrapper">
+            <div class="boutons-header">
+                <div class="btn-h" id="btn-h1" data-lien="a-propos">
+                    <p>CONNAITRE</p>
+                    <h1>L'ARTISTE</h1>
+                    <div class="fleche">
+                        <img src="images/arrow.png" alt="Flèche">
+                    </div>
+
+                </div>
+
+                <div class="btn-h" id="btn-h2" data-lien="port">
+                    <p>VISITEZ</p>
+                    <h1>MON PORTFOLIO</h1>
+                    <div class="fleche">
+                        <img src="images/arrow.png" alt="Flèche">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<!-- ================================================
+À Propos
+================================================= -->
+
+<section class="a-propos" id="a-propos">
+    <div class="wrapper">
+        <div class="flex">
+            <div>
+                <h2>À propos de moi</h2>
+                <p>Je suis une jeune artiste de 19 ans habitant au Québec prête à prendre de l'expérience.</p>
+                <p>Je suis passionnée par la peinture et très enthousiaste à l'idée de produire de nouvelles oeuvres.</p>
+            </div>
+            <img src="images/portrait1.png" alt="Portrait">
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================
+Portfolio
+================================================= -->
+
+<section class="portfolio" id="port">
+    <div class="wrapper">
+        <h2 class="bleu">Mon portfolio</h2>
+        <div class="grid">
+            <div class="oeuvre" id="img1" data-on="url('images/p-hover/p-chien-hover.png')" data-off="url('images/p/p-chien.png')"></div>
+            <div class="oeuvre" id="img2" data-on="url('images/p-hover/p-fleurs-hover.png')" data-off="url('images/p/p-fleurs.png')"></div>
+            <div class="oeuvre" id="img3" data-on="url('images/p-hover/p-oeil-hover.png')" data-off="url('images/p/p-oeil.png')"></div>
+            <div class="oeuvre" id="img4" data-on="url('images/p-hover/p-pouring1-hover.png')" data-off="url('images/p/p-pouring1.png')"></div>
+            <div class="oeuvre" id="img5" data-on="url('images/p-hover/p-thougth-hover.png')" data-off="url('images/p/p-thougth.png')"></div>
+            <div class="oeuvre" id="img6" data-on="url('images/p-hover/p-pouring2-hover.png')" data-off="url('images/p/p-pouring2.png')"></div>
+            <div class="oeuvre" id="img7" data-on="url('images/p-hover/p-ocean-hover.png')" data-off="url('images/p/p-ocean.png')"></div>
+            <div class="oeuvre" id="img8" data-on="url('images/p-hover/p-sad-girl-hover.png')" data-off="url('images/p/p-sad-girl.png')"></div>
+            <div class="oeuvre" id="img9" data-on="url('images/p-hover/p-visage-hover.png')" data-off="url('images/p/p-visage.png')"></div>
+
+        </div>
+        <div class="right">
+            <a href="https://www.instagram.com/croteau_art/" class="plus" target="_blank">Plus</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================================
+Me contacter
+================================================= -->
+
+<section class="contact" id="contact">
+    <div class="wrapper">
+        <h2 class="bleu">Me Contacter</h2>
+        <div class="flex">
+            <img src="images/portrait2.png" alt="Portrait Emy">
+            <div class="bourgogne">
+                <h3>Si vous souhaitez passer une commande</h3>
+                <p>Contactez moi par courriel: croteau.art@gmail.com <br> ou écrivez moi sur mes réseaux.</p>
+                <p>N’hésitez pas à venir me suivre sur mes réseaux pour <br>m’encourager.</p>
+
+                <div class="reseaux">
+                    <a href="https://www.instagram.com/croteau_art/" target="_blank"><img src="images/insta.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/emycroteauartiste/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================
+Footer
+================================================= -->
+
+<footer>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#accueil">ACCUEIL</a></li>
+                <li><a href="#a-propos">À PROPOS</a></li>
+                <li><a href="#contact">COMMANDE</a></li>
+                <li><a href="#port">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+        <p>Emy Croteau Art - Les images présents sur ce site sont des propriétés d'Emy Croteau - 2022</p>
+    </div>
+</footer>
+
+</body>
+</html>
